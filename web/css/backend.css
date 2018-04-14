@@ -1,0 +1,9 @@
+div#admin-nav {
+  padding: 0 0 30px;
+}
+
+p#logger {
+ color:#AAA;
+ font-style: italic;
+ text-align: right;
+}

@@ -1,0 +1,83 @@
+v 1.1.1 - 2009-11-26
+--------------------
+
+ * Hugo Hamon        : implemented Countable interface on sfUoWidgetTable objects
+ * Francois Béliveau : fixed callback in swfupload transformer
+ * Francois Béliveau : fixed js config helper
+ * Francois Béliveau : added multiselect transformer for select many form widget
+ * Francois Béliveau : added "input text many" widget transformer ajax search transformer
+ * Francois Béliveau : make jquery "double_list" transformer compatible with jQuery UI
+ * Francois Béliveau : fixed warning in sfUoWidgetFormDate when no transformer sets
+ * Francois Béliveau : make jquery "asm" transformer compatible with jQuery UI
+ * Francois Béliveau : added more unit tests
+ * Karim Tache       : fixed bug when merging html attributes for items (sfUoWidgetList)
+ * Karim Tache       : added is_array test on item values (sfUoWidgetMenu)
+ * Karim Tache       : fixed doc
+ * Francois Béliveau : added "button_set" transformer for select widgets
+ * Francois Béliveau : fixed "drop_line" menu widget transformer
+ * Francois Béliveau : added "related_choice" transformer for select
+ * Francois Béliveau : added i18n support to sfUoWidgetFormDate
+ * François Béliveau : added color widget
+ * François Béliveau : added table widget
+ * François Béliveau : fixed documentations
+
+v 1.1.0 - 2009-05-25
+--------------------
+
+ * Romain Dorgueil   : implement sfDynamicsPlugin compatibility (beta)
+ * Francois Béliveau : implement sfDynamicsPlugin compatibility
+ * Francois Béliveau : added "mask" transformer to text input widget
+ * Francois Béliveau : refactoring
+ * Francois Béliveau : removed install task and create publish and unpublish tasks
+ * Francois Béliveau : added some documentation
+ * Francois Béliveau : removed accordion widget and create sfUoWidgetContainersList instead
+ * Francois Béliveau : added tabs transformer to sfUoWidgetContainersList widget
+ * Francois Béliveau : changed spinner JS script
+ * Francois Béliveau : added sfUoWidgetFormPropelSelectMany widget
+ * Francois Béliveau : removed default transformer for sfUoWidgetFormDate
+ * Francois Béliveau : added some unit test
+ * Francois Béliveau : added documentation and examples
+
+v 1.0.3 - 2009-04-22
+--------------------
+
+ * Francois Béliveau : change "dropdown" JS transformer name to "drop_down"
+ * Francois Béliveau : add "drop_line" JS transformer for menu
+ * Francois Béliveau : set "js_lazy" property to TRUE by default
+ * Francois Béliveau : remove widget JS initialization in JS files on window.load (to increase performance)
+ * Francois Béliveau : add load all JS and CSS methods
+ * Francois Béliveau : add embed element to valid elements in tinyMCE default config
+ * Francois Béliveau : fix JS config rendering for range widget
+ * Francois Béliveau : fix JS config rendering for date picker widget
+ * Francois Béliveau : add "is_super_admin_method" option to sfUoWidgetAdminMenu
+ * Francois Béliveau : is super admin check on credential check in sfUoWidgetAdminMenu
+ * Francois Béliveau : fix JS double list script selected value on initialization
+ * Francois Béliveau : fix JS dom manipulation bug in treeview admin when root not exists
+ * Francois Béliveau : fix JS id widgets output to be able to display date range
+ * Francois Béliveau : add file widget with swf upload transformer
+ * Francois Béliveau : fix getJsTransformers function (always return an array)
+ * Francois Béliveau : add image by default to swf uplaod widget flash button
+ * Geoffrey Bachelet : added i18n support for sfUoWidgetList
+ * Hugo Hamon        : fixed wrong implementation of offsetGet() in config manager
+ * Karim Tache       : added sfUoWidgetFormDoctrineSelect and sfUoWidgetFormDoctrineSelectMany widgets
+ * Francois Béliveau : added drop down check list transformer to select many widget
+ * Francois Béliveau : added window_onload config in yaml
+
+v 1.0.2 - 2009-02-05
+--------------------
+
+ * Francois Béliveau : refactoring javascript
+ * Francois Béliveau : add default "rows" and "cols" attribute for textarea widget
+ * Francois Béliveau : add "js_lazy" option
+
+v 1.0.1 - 2009-01-24
+--------------------
+
+ * Francois Béliveau : add documentation
+ * Francois Béliveau : refactoring javascript
+ * Francois Béliveau : fix "multiple" option in sfUoWidgetFormSelect class
+
+v 1.0.0 - 2009-01-18
+--------------------
+
+ * Francois Béliveau : first release

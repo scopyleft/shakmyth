@@ -1,0 +1,60 @@
+# default rules
+
+menu:
+  url:     /menu
+  param: { module: menu, action: index }
+
+page:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Page
+    module:               page
+    prefix_path:          /page
+    column:               id
+    with_wildcard_routes: true
+
+news:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                News
+    module:               news
+    prefix_path:          /news
+    column:               id
+    with_wildcard_routes: true
+
+
+profile:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Profile
+    module:               profile
+    prefix_path:          /profile
+    column:               id
+    with_wildcard_routes: true
+
+myth_page:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                MythPage
+    module:               myth_page
+    prefix_path:          /myth_page
+    column:               id
+    with_wildcard_routes: true
+
+myth:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Myth
+    module:               myth
+    prefix_path:          /myth
+    column:               id
+    with_wildcard_routes: true
+
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+default:
+  url:   /:module/:action/*

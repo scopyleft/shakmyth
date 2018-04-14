@@ -1,0 +1,12 @@
+all:
+  navigation:
+    top-nav:
+      about:
+        label: About CNRS
+        link:  http://www.cnrs.fr/en/aboutCNRS/overview.htm
+      cnrs:
+        label: "CNRS & the Humanities"
+        link:  http://www.cnrs.fr/inshs/
+      other:
+        label: Other CNRS Websites
+        link:  http://www.cnrs.fr/fr/une/sites-cnrs.htm

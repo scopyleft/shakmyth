@@ -1,0 +1,13 @@
+packages:
+
+  jquery:
+    js: jquery-1.7.1.min.js
+  
+  jquery-ui:
+    import: jquery
+    js: jquery-ui-1.8.17.custom.min.js
+    css: [ui-lightness/jquery-ui-1.8.17.custom.css, accordion]
+  
+  page:
+    css: sub_page
+  

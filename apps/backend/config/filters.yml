@@ -1,0 +1,8 @@
+rendering: ~
+security:
+  class: sfGuardBasicSecurityFilter
+  
+cache:     ~
+common:
+  class: sfCommonFilter
+execution: ~

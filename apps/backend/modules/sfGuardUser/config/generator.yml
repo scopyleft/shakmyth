@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    config:
+      actions:
+        _new: { credentials: admin }
+        _delete: { credentials: admin }
+      fields:
+      filter:
+        display: [ username, is_active, myths_list, groups_list ]
+      edit:
+      new:
+      form:
+        class: sfGuardUserAdminForm
+        display:  
+          "NONE": [username, password, password_again, Profile]
+        fields:
+          groups: { credentials: admin }
+          permissions: { credentials: admin }
+          is_active: { credentials: admin }
+          myths_list: { help: "Press 'command' on 'ctrl' key to select multiple myths" }
+      list:
+        batch_actions:
+          _delete:    { credentials: admin }
+        sort: [ username, desc ]
+        display: [ =username, last_login, is_active ]
+        max_per_page: 20

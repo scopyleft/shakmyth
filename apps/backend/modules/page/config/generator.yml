@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Page
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          page
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+        display: [=title, heading, priority, is_active]
+        batch_actions:
+          _delete:    ~
+          actived:    ~
+          inactived:  ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

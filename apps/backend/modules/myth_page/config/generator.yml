@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           MythPage
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          myth_page
+    with_doctrine_route:     1
+
+    config:
+      actions:
+        _new: { credentials: admin }
+        _delete: { credentials: admin }
+      fields:  ~
+      list:
+        display: [ =myth_name, myth_category, is_active ]
+        fields: ~
+        batch_actions:
+          _delete:    { credentials: admin }
+          actived:    { credentials: admin }
+          inactived:  { credentials: admin }
+      filter:  ~
+      form:    ~
+      edit:
+        fields:
+          is_active:
+            credential: [ admin ]

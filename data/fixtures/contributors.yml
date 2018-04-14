@@ -1,0 +1,163 @@
+---
+sfGuardGroup:
+  sgg_contributor:
+    name:                 contributor
+    description:          Contributor group
+  
+sfGuardPermission:
+  sgp_contributor:
+    name:                 contributor
+    description:          Contributor group  
+      
+sfGuardGroupPermission:
+  up1:
+    sfGuardGroup:         sgg_contributor
+    sfGuardPermission:    sgp_contributor
+    
+sfGuardUserGroup:   
+  sgg_Salato:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Salato  
+  sgg_Pbarro:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Pbarro  
+  sgg_Fdelor:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Fdelor  
+  sgg_Pdorva:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Pdorva  
+  sgg_Ggines:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Ggines  
+  sgg_Alafon:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Alafon  
+  sgg_Jmagui:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Jmagui  
+  sgg_Cmaure:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Cmaure  
+  sgg_Jmayer:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Jmayer  
+  sgg_Ypeyre:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Ypeyre  
+  sgg_Nriver:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Nriver  
+  sgg_Jvalls:
+    sfGuardGroup:         sgg_contributor
+    sfGuardUser:          Jvalls  
+
+sfGuardUser:
+  Salato:
+    username:             chiarisophie@hotmail.com
+    password:             SophALAT
+    Profile:
+      first_name:         sophie
+      last_name:          alatorre
+      photo:              alatorre.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Pbarro:
+    username:             paula.barros@univ-montp3.fr
+    password:             PaulBARR
+    Profile:
+      first_name:         paula
+      last_name:          barros
+      photo:              barros.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Fdelor:
+    username:             frederic-delord@wanadoo.fr
+    password:             FredDELO
+    Profile:
+      first_name:         frederic
+      last_name:          delord
+      photo:              delord.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Pdorva:
+    username:             patricia.dorval@univ-montp3.fr
+    password:             PatrDORV
+    Profile:
+      first_name:         patricia
+      last_name:          dorval
+      photo:              dorval.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Ggines:
+    username:             gaelle.ginestet@univ-montp3.fr
+    password:             GaelGINE
+    Profile:
+      first_name:         gaelle
+      last_name:          ginestet
+      photo:              ginestet.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Alafon:
+    username:             agnes.lafont@univ-montp3.fr
+    password:             AgneLAFO
+    Profile:
+      first_name:         agnes
+      last_name:          lafont
+      photo:              lafont.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Jmagui:
+    username:             jmmaguin@wanadoo.fr
+    password:             JeanMAGU
+    Profile:
+      first_name:         jean-marie
+      last_name:          maguin
+      photo:              maguin.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Cmaure:
+    username:             cecile.maure@univ-reims.fr
+    password:             CeciMAUR
+    Profile:
+      first_name:         cecile
+      last_name:          maure
+      photo:              maure.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Jmayer:
+    username:             jean-christophe.mayer@univ-montp3.fr
+    password:             JeanMAYE
+    Profile:
+      first_name:         jean-christophe
+      last_name:          mayer
+      photo:              mayer.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Ypeyre:
+    username:             yves.peyre@univ-montp3.fr
+    password:             YvesPEYR
+    Profile:
+      first_name:         yves
+      last_name:          peyre
+      photo:              peyre.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Nriver:
+    username:             nrivere@univ-tlse2.fr
+    password:             NathRIVE
+    Profile:
+      first_name:         nathalie
+      last_name:          rivere de carles
+      photo:              rivere de carles.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Jvalls:
+    username:             cahiers@univ-montp3.fr
+    password:             JaniVALL
+    Profile:
+      first_name:         janice
+      last_name:          valls-russell
+      photo:              valls-russell.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

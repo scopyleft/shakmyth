@@ -1,0 +1,14 @@
+<?php $myths = sfYaml::load(sfConfig::get('sf_data_dir').'/fixtures/myth.yml') ?>
+<?php $app = sfYaml::load(sfConfig::get('sf_config_dir')."/app.yml") ?>
+<?php $myth_categories = $app['all']['myth']['categories'] ?>
+---
+MythPage: 
+<?php foreach($myths['Myth'] as $myth): ?> 
+  <?php foreach($myth_categories as $myth_category): ?>
+<?php echo "\n  " . substr($myth['name'], 0, 5) . "_" . substr($myth_category, 0, 5) ?>:
+    Myth: <?php echo preg_replace('/[^a-z]/','',strtolower($myth['name'])) ?> 
+    myth_category: <?php echo $myth_category."\n" ?>
+    content: | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    is_activated: 0
+    <?php endforeach ?>
+<?php endforeach ?>

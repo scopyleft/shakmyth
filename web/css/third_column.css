@@ -1,0 +1,14 @@
+h3.news {
+	padding: 10px 0;	
+}
+
+div.news {
+  border-bottom: 1px solid #EFC70F;
+ 	padding: 5px 0;
+}
+
+div#third-column { 
+	padding: 15px;
+  width: 120px;
+  float: left;
+}

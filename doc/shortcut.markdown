@@ -1,0 +1,1 @@
+ ./symfony doctrine:build-all-reload --env=test --dir=data/test-fixtures --no-confirmation

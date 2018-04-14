@@ -1,0 +1,47 @@
+.user-pic {
+  height: 120px;
+  width:  92px;
+  -moz-border-radius-bottomleft:2px;
+  -moz-border-radius-bottomright:2px;
+  -moz-border-radius-topleft:2px;
+  -moz-border-radius-topright:2px;
+  border:1px solid #919191;
+}
+
+div.contributor {
+  width: 33%;
+  float: left;
+  text-align: center;
+  border-top: 1px solid #999;
+  padding: 10px 0px;
+}
+
+div#contributor-col-2 div.contributor {
+  width: 100%;
+}
+
+.contributor span {
+  display: block;
+}
+
+div#contributor-col-1 {
+  float: left;
+  width: 60%;
+}
+
+div#contributor-col-2 {
+  float: right;
+  width: 30%;
+  text-align: center; 
+}
+
+span.name {
+  color: #D70;
+  display: block;
+}
+
+ul.myths_list {
+  width: 33%;
+  display: block;
+  float: left;
+}

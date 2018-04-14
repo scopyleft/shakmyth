@@ -1,0 +1,27 @@
+all:
+  navigation:
+    left-nav:
+      home:
+        label: homepage
+        contents:
+          homepage:
+            label: homepage
+            route: @homepage
+          dictionnaries:
+            label: dictionnaries
+            route: @page?title=title-dictionnaries
+          contributors:    
+            label: contributors
+            route: @page?title=title-contributors
+      dicentries:
+        label: dicentries
+        contents:
+          dicentries:
+            label: dict_entries
+            route: @myth_list
+      contributors:
+        label: contributors
+        contents:
+          contributors:
+            label: contributors
+            route:  @contributor_list

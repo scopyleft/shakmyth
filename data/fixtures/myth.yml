@@ -1,0 +1,760 @@
+---
+Myth:
+  absyrtus:
+    name:         absyrtus
+
+  acheron:
+    name:         acheron
+
+  achilles:
+    name:         achilles
+
+  actaeon:
+    name:         actaeon
+
+  adonis:
+    name:         adonis
+
+  aeacides:
+    name:         aeacides
+
+  aeacus:
+    name:         aeacus
+
+  aegle:
+    name:         aegle
+
+  aeneas:
+    name:         aeneas
+
+  aeolus:
+    name:         aeolus
+
+  aesculapius:
+    name:         aesculapius
+
+  aeson:
+    name:         aeson
+
+  agamemnon:
+    name:         agamemnon
+
+  agenor:
+    name:         agenor
+
+  ajax:
+    name:         ajax
+
+  alcides:
+    name:         alcides
+
+  alecto:
+    name:         alecto
+
+  althaea:
+    name:         althaea
+
+  amazon:
+    name:         amazon
+
+  amphimacus:
+    name:         amphimacus
+
+  amphion:
+    name:         amphion
+
+  anchises:
+    name:         anchises
+
+  andromache:
+    name:         andromache
+
+  anna:
+    name:         anna
+
+  antenor:
+    name:         antenor
+
+  antenorides:
+    name:         antenorides
+
+  antiopa:
+    name:         antiopa
+
+  apollo:
+    name:         apollo
+
+  aquilon:
+    name:         aquilon
+
+  arachne:
+    name:         arachne
+
+  argonauts:
+    name:         argonauts
+
+  argus:
+    name:         argus
+
+  ariadne:
+    name:         ariadne
+
+  arion:
+    name:         arion
+
+  artesius:
+    name:         artesius
+
+  ascanius:
+    name:         ascanius
+
+  astraea:
+    name:         astraea
+
+  atalanta:
+    name:         atalanta
+
+  ate:
+    name:         ate
+
+  atlas:
+    name:         atlas
+
+  atreus:
+    name:         atreus
+
+  atropos:
+    name:         atropos
+
+  aurora:
+    name:         aurora
+
+  autolycus:
+    name:         autolycus
+
+  bacchanals:
+    name:         bacchanals
+
+  bacchus:
+    name:         bacchus
+
+  bellona:
+    name:         bellona
+
+  boreas:
+    name:         boreas
+
+  briareus:
+    name:         briareus
+
+  cadmus:
+    name:         cadmus
+
+  calchas:
+    name:         calchas
+
+  calydonianboar:
+    name:         calydonian boar
+
+  capaneus:
+    name:         capaneus
+
+  cassandra:
+    name:         cassandra
+
+  castor:
+    name:         castor
+
+  cedius:
+    name:         cedius
+
+  centaur:
+    name:         centaur
+
+  cephalus:
+    name:         cephalus
+
+  cerberus:
+    name:         cerberus
+
+  ceres:
+    name:         ceres
+
+  chaos:
+    name:         chaos
+
+  charon:
+    name:         charon
+
+  charybdis:
+    name:         charybdis
+
+  chetas:
+    name:         chetas
+
+  chiron:
+    name:         chiron
+
+  circe:
+    name:         circe
+
+  cocytus:
+    name:         cocytus
+
+  colossus:
+    name:         colossus
+
+  cressida:
+    name:         cressida
+
+  cupid:
+    name:         cupid
+
+  cyclops:
+    name:         cyclops
+
+  cynthia:
+    name:         cynthia
+
+  cytherea:
+    name:         cytherea
+
+  daedalus:
+    name:         daedalus
+
+  danae:
+    name:         danae
+
+  danaids:
+    name:         danaids
+
+  daphne:
+    name:         daphne
+
+  dardan:
+    name:         dardan
+
+  deiphobus:
+    name:         deiphobus
+
+  deucalion:
+    name:         deucalion
+
+  diana:
+    name:         diana
+
+  dictynna:
+    name:         dictynna
+
+  dido:
+    name:         dido
+
+  diomedes:
+    name:         diomedes
+
+  dis:
+    name:         dis
+
+  doreus:
+    name:         doreus
+
+  echo:
+    name:         echo
+
+  elizium:
+    name:         elizium
+
+  enceladus:
+    name:         enceladus
+
+  endymion:
+    name:         endymion
+
+  erebus:
+    name:         erebus
+
+  europa:
+    name:         europa
+
+  evadne:
+    name:         evadne
+
+  fama:
+    name:         fama
+
+  fates:
+    name:         fates
+
+  flora:
+    name:         flora
+
+  fortune:
+    name:         fortune
+
+  furies:
+    name:         furies
+
+  galathe:
+    name:         galathe
+
+  ganymede:
+    name:         ganymede
+
+  goldenage:
+    name:         golden age
+
+  gorgon:
+    name:         gorgon
+
+  hades:
+    name:         hades
+
+  harpy:
+    name:         harpy
+
+  hecate:
+    name:         hecate
+
+  hector:
+    name:         hector
+
+  hecuba:
+    name:         hecuba
+
+  helen:
+    name:         helen
+
+  helenus:
+    name:         helenus
+
+  helias:
+    name:         helias
+
+  hercules:
+    name:         hercules
+
+  herculesfurens:
+    name:         hercules furens
+
+  hermaphroditus:
+    name:         hermaphroditus
+
+  hermes:
+    name:         hermes
+
+  hero:
+    name:         hero
+
+  heroandleander:
+    name:         hero and leander
+
+  hesperides:
+    name:         hesperides
+
+  hesperis:
+    name:         hesperis
+
+  hesperus:
+    name:         hesperus
+
+  hiems:
+    name:         hiems
+
+  hippolyta:
+    name:         hippolyta
+
+  hydra:
+    name:         hydra
+
+  hymen:
+    name:         hymen
+
+  hyperion:
+    name:         hyperion
+
+  hyrcaniantiger:
+    name:         hyrcanian tiger
+
+  icarus:
+    name:         icarus
+
+  ilium:
+    name:         ilium
+
+  io:
+    name:         io
+
+  iris:
+    name:         iris
+
+  isis:
+    name:         isis
+
+  ixion:
+    name:         ixion
+
+  janus:
+    name:         janus
+
+  jason:
+    name:         jason
+
+  jove:
+    name:         jove
+
+  juno:
+    name:         juno
+
+  junosswans:
+    name:         juno s swans
+
+  jupiter:
+    name:         jupiter
+
+  labyrinth:
+    name:         labyrinth
+
+  laertes:
+    name:         laertes
+
+  lavinia:
+    name:         lavinia
+
+  leander:
+    name:         leander
+
+  leda:
+    name:         leda
+
+  lethe:
+    name:         lethe
+
+  lichas:
+    name:         lichas
+
+  lucina:
+    name:         lucina
+
+  margareton:
+    name:         margareton
+
+  mars:
+    name:         mars
+
+  maze:
+    name:         maze
+
+  medea:
+    name:         medea
+
+  medusa:
+    name:         medusa
+
+  meleager:
+    name:         meleager
+
+  menelaus:
+    name:         menelaus
+
+  mercury:
+    name:         mercury
+
+  mermaid:
+    name:         mermaid
+
+  merops:
+    name:         merops
+
+  midas:
+    name:         midas
+
+  milo:
+    name:         milo
+
+  minerva:
+    name:         minerva
+
+  minos:
+    name:         minos
+
+  minotaur:
+    name:         minotaur
+
+  muse:
+    name:         muse
+
+  musicofthespheres:
+    name:         music of the spheres
+
+  myrmidons:
+    name:         myrmidons
+
+  naiad:
+    name:         naiad
+
+  narcissus:
+    name:         narcissus
+
+  nectar:
+    name:         nectar
+
+  nemeanlion:
+    name:         nemean lion
+
+  nemesis:
+    name:         nemesis
+
+  neoptolemus:
+    name:         neoptolemus
+
+  neptune:
+    name:         neptune
+
+  nereide:
+    name:         nereide
+
+  nero:
+    name:         nero
+
+  nessus:
+    name:         nessus
+
+  nestor:
+    name:         nestor
+
+  niobe:
+    name:         niobe
+
+  nox:
+    name:         nox
+
+  odipus:
+    name:         odipus
+
+  olympus:
+    name:         olympus
+
+  omphale:
+    name:         omphale
+
+  orpheus:
+    name:         orpheus
+
+  ossa:
+    name:         ossa
+
+  palamedes:
+    name:         palamedes
+
+  pallas:
+    name:         pallas
+
+  pan:
+    name:         pan
+
+  pandarus:
+    name:         pandarus
+
+  parcae:
+    name:         parcae
+
+  paris:
+    name:         paris
+
+  patroclus:
+    name:         patroclus
+
+  pegasus:
+    name:         pegasus
+
+  pelion:
+    name:         pelion
+
+  pelops:
+    name:         pelops
+
+  penelope:
+    name:         penelope
+
+  penthesilea:
+    name:         penthesilea
+
+  perigenia:
+    name:         perigenia
+
+  perseus:
+    name:         perseus
+
+  phaeton:
+    name:         phaeton
+
+  philemon:
+    name:         philemon
+
+  philomel:
+    name:         philomel
+
+  phitus:
+    name:         phitus
+
+  phobe:
+    name:         phobe
+
+  phobus:
+    name:         phobus
+
+  phonix:
+    name:         phonix
+
+  pirithous:
+    name:         pirithous
+
+  pluto:
+    name:         pluto
+
+  plutus:
+    name:         plutus
+
+  polixenes:
+    name:         polixenes
+
+  polydamas:
+    name:         polydamas
+
+  polyxena:
+    name:         polyxena
+
+  priam:
+    name:         priam
+
+  priapus:
+    name:         priapus
+
+  procris:
+    name:         procris
+
+  progne:
+    name:         progne
+
+  prometheus:
+    name:         prometheus
+
+  proserpina:
+    name:         proserpina
+
+  proteus:
+    name:         proteus
+
+  pygmalion:
+    name:         pygmalion
+
+  pyramus:
+    name:         pyramus
+
+  pyrrhus:
+    name:         pyrrhus
+
+  rhesus:
+    name:         rhesus
+
+  salmacis:
+    name:         salmacis
+
+  saturn:
+    name:         saturn
+
+  satyr:
+    name:         satyr
+
+  scylla:
+    name:         scylla
+
+  semiramis:
+    name:         semiramis
+
+  sibyl:
+    name:         sibyl
+
+  sinon:
+    name:         sinon
+
+  siren:
+    name:         siren
+
+  sol:
+    name:         sol
+
+  sphinx:
+    name:         sphinx
+
+  styx:
+    name:         styx
+
+  tantalus:
+    name:         tantalus
+
+  tartarus:
+    name:         tartarus
+
+  telamon:
+    name:         telamon
+
+  tellus:
+    name:         tellus
+
+  tereus:
+    name:         tereus
+
+  thersites:
+    name:         thersites
+
+  theseus:
+    name:         theseus
+
+  thetis:
+    name:         thetis
+
+  thisbe:
+    name:         thisbe
+
+  thoas:
+    name:         thoas
+
+  thyestes:
+    name:         thyestes
+
+  timbria:
+    name:         timbria
+
+  titan:
+    name:         titan
+
+  titania:
+    name:         titania
+
+  tityus:
+    name:         tityus
+
+  triton:
+    name:         triton
+
+  troien:
+    name:         troien
+
+  troilus:
+    name:         troilus
+
+  troy:
+    name:         troy
+
+  typhon:
+    name:         typhon
+
+  ulysses:
+    name:         ulysses
+
+  venus:
+    name:         venus
+
+  vulcan:
+    name:         vulcan

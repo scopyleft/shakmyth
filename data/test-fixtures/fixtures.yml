@@ -1,0 +1,110 @@
+---
+sfGuardUser:
+  slang:
+    username:           admin
+    password:           xxxxxxxx
+    is_super_admin:     true
+    Profile:
+      first_name:       stephane
+      last_name:        Langlois
+      
+  Salato:
+    username:             chiarisophie@hotmail.com
+    password:             xxxxxxxx
+    Profile:
+      first_name:         sophie
+      last_name:          alatorre
+      photo:              alatorre.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Jmayer:
+    username:             jean-christophe.mayer@univ-montp3.fr
+    password:             xxxxxxxx
+    Profile:
+      first_name:         jean-christophe
+      last_name:          mayer
+      photo:              mayer.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        
+  Fdelor:
+    username:             frederic-delord@wanadoo.fr
+    password:             xxxxxxxx
+    is_active:            false
+    Profile:
+      first_name:         frederic
+      last_name:          delord
+      photo:              delord.jpg
+      biography:          |
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+sfGuardGroup:
+  sgg_contributor:
+    name:               contributor
+    description:        Contributor group
+
+sfGuardUserGroup:   
+  sgg_Salato:
+    sfGuardGroup:       sgg_contributor
+    sfGuardUser:        Salato
+    
+  sgg_Jmayer:
+    sfGuardGroup:       sgg_contributor
+    sfGuardUser:        Jmayer 
+
+  sgg_Fdelor:
+    sfGuardGroup:       sgg_contributor
+    sfGuardUser:        Fdelor 
+    
+sfGuardPermission:
+  sgp_contributor:
+    name:               contributor
+    description:        Contributor group
+    
+sfGuardGroupPermission:
+  sggp_contributor:
+    group_id:           1
+    permission_id:      1
+
+ContributorMyth:
+  achilles_alatorre:
+    profile_id:     2
+    myth_id:        3
+  
+  apollo_alatorre:
+    profile_id:     2
+    myth_id:        28
+    
+  naiad_alatorre:
+    profile_id:     2
+    myth_id:        3
+    
+  achilles_mayer:
+    profile_id:     3
+    myth_id:        3
+  
+  apollo_mayer:
+    profile_id:     3
+    myth_id:        28
+    
+  myrmidons_mayer:
+    profile_id:     3
+    myth_id:        29
+  
+  naiad_mayer:
+    profile_id:     3
+    myth_id:        30
+    
+  palamedes_mayer:
+    profile_id:     3
+    myth_id:        34
+  
+  scylla_mayer:
+    profile_id:     3
+    myth_id:        36
+    
+  apollo_fedelor:
+    profile_id:     4
+    myth_id:        28

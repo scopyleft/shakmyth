@@ -1,0 +1,23 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Myth
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          myth
+    with_doctrine_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        sort: [ name, asc ]
+        display: [ =name, is_active ]
+      filter:  
+        display: [ name, is_active, profiles_list ]
+      form:    ~
+      edit:    ~
+      new:     ~

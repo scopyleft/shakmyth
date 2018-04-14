@@ -1,0 +1,58 @@
+sfDoctrineSchemaUI:
+  url:    /sfDoctrineSchemaUI
+  param:  { module: sfDoctrineSchemaUI, action: index }
+
+page:
+  url:     /page/:title
+  class:   sfDoctrineRoute
+  options: { model: Page, type: object }
+  param:   { module: pages, action: show }
+
+news_list:
+  url:     /news
+  param:   { module: news, action: list }
+
+news_show:
+  url:     /news/:title
+  class:   sfDoctrineRoute
+  options: { model: News, type: object }
+  param:   { module: news, action: show }
+
+myth_list:
+  url:     /dictionary/:letter_choice
+  param:   { module: myths, action: list, letter_choice: ~ }
+
+myth_show:
+  url:     /myth/:myth_id/:myth_name/:myth_category
+  class:   sfDoctrineRoute
+  options: { model: Myth, type: object }
+  param:   { module: myths, action: show, myth_category: 0 }
+  requirements:
+    myth_id: \d+
+
+default_search:
+  url:   /search
+  param: { module: search, action: index }
+
+contributor_list:
+  url:     /contributors
+  param: { module: contributors, action: list }
+
+contributor_show:
+  url:     /contributor/:id/:last_name
+  class:   sfDoctrineRoute
+  options: { model: Profile, type: object }
+  param:   { module: contributors, action: show }
+
+homepage:
+  url:     /
+  class:   sfDoctrineRoute
+  options: { model: Page, type: object }
+  param:   { module: pages, action: index }
+
+# alias of homepage
+home_page:
+  url:     /
+  class:   sfDoctrineRoute
+  options: { model: Page, type: object }
+  param:   { module: pages, action: index }

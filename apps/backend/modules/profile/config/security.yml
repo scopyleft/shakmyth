@@ -1,0 +1,5 @@
+new:
+  credentials: admin
+  
+delete:
+  credentials: admin

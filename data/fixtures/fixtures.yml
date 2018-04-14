@@ -1,0 +1,27 @@
+---
+sfGuardUser:
+  slang:
+    username:           admin
+    password:           xxxxxxxx
+    is_super_admin:     true
+    Profile:
+      first_name:       stephane
+      last_name:        Langlois
+
+  shakm:
+    username:           shakmyth
+    password:           xxxxxxxx
+    is_super_admin:     true
+    Profile:
+      first_name:       stephane
+      last_name:        Langlois
+
+# ContributorPage:
+#   3:
+#     Page: apollo_secondary
+#     sf_guard_user_id: 1
+#   4:
+#     Page: apollo_secondary
+#     sf_guard_user_id: 2
+
+

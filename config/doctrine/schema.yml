@@ -1,0 +1,93 @@
+---
+<?php $app = sfYaml::load(sfConfig::get('sf_config_dir')."/app.yml") ?>
+options:
+  collate: utf8_unicode_ci
+  charset: utf8
+
+Page:
+  actAs:
+    Searchable:
+      fields: [heading, content]
+  columns:
+    id:             { type: integer(4), primary: true, autoincrement: true }
+    heading:        { type: enum, values: '' }
+    priority:       { type: integer(2) }
+    special_page:   { type: enum, values: '' }
+    title:          { type: string(255), notnull: true, unique: true }
+    content:        { type: clob }
+    is_active:      { type: boolean, notnull: true, default: false }
+
+News:
+  actAs:
+    Searchable:
+      fields: [content]
+  columns:
+    id:             { type: integer(4), primary: true, autoincrement: true }
+    priority:       { type: integer(2) }
+    title:          { type: string(255), notnull: true, unique: true }
+    summary:        { type: clob }
+    content:        { type: clob }
+    is_active:      { type: boolean, notnull: true, default: false }
+ 
+Myth:
+  columns:
+    id:             { type: integer(4), primary: true, autoincrement: true }
+    name:           { type: string(255), notnull: true, unique: true }
+    is_active:      { type: boolean, notnull: false, default: false }
+  relations:
+    Profiles:
+      refClass: ContributorMyth
+      class: Profile
+      foreignAlias: Myths
+
+Profile:
+  actAs:
+    Searchable:
+      fields: [biography]
+  columns:
+    id:               { type: integer(4), primary: true, autoincrement: true }
+    sf_guard_user_id: { type: integer(4), unique: true, notnull: true }
+    first_name:       { type: string(255) }
+    last_name:        { type: string(255) }
+    biography:        { type: clob }
+    photo:            { type: string(255) }
+  relations:
+    User:
+      class: sfGuardUser
+      foreignType: one
+      onDelete: CASCADE
+    Myths:
+      refClass: ContributorMyth
+      class: Myth
+      foreignAlias: Profiles
+  
+MythPage:
+  actAs:
+    Searchable:
+      fields: [content, myth_category]  
+      Timestampable: ~
+  columns:
+    id:             { type: integer(4), primary: true, autoincrement: true }
+    myth_id:        { type: integer(4), notnull: true }
+    myth_category:  { type: enum, values: <?php echo "[ '', '".implode("', '", $app['all']['myth']['categories'])."' ]" ?>, default: '' }
+    content:        { type: clob }
+    is_active:      { type: boolean, notnull: true, default: false }
+  relations:
+    Myth:
+      local: myth_id
+      foreign: id
+      foreignAlias: Myths
+
+ContributorMyth:
+  actAs: Timestampable: ~
+  columns:
+    id:             { type: integer(4), primary: true, autoincrement: true }
+    profile_id:     { type: integer(4), primary: true }
+    myth_id:        { type: integer(4), primary: true }
+  relations:
+    Profile:
+      onDelete: CASCADE
+      foreignAlias: GroupUsers
+    Myth:
+      onDelete: CASCADE
+      foreignAlias: GroupUsers

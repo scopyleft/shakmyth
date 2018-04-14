@@ -1,0 +1,24 @@
+packages:
+  
+  doctrine:
+    css:
+      - /sfDoctrinePlugin/css/global.css
+      - /sfDoctrinePlugin/css/default.css
+      - /sfDoctrineManagerPlugin/css/style.css
+  
+  tinymce:
+    js:     [jquery-1.7.1.min.js, tiny_mce/tiny_mce.js, tiny_mce/jquery.tinymce.js, /sfMediaBrowserPlugin/js/WindowManager.js]
+  
+  select_many:
+    import: jquery-ui
+    js:
+      - /sfUnobstrusiveWidgetPlugin/js/jquery/uo_widget_form_select_many_asm.jquery.js
+      - /sfUnobstrusiveWidgetPlugin/js/jquery/uo_widget_list_drop_down.jquery.js
+    css:
+      - /sfUnobstrusiveWidgetPlugin/css/themes/redmond/jquery-ui-1.7.2.css
+      - /sfUnobstrusiveWidgetPlugin/css/common/uo_widget_form_select_many_asm.css
+  
+  layout:
+    import: [jquery, doctrine, tinymce, page, select_many]
+    js: back_myth_page
+    css: [main, backend, back_sf]

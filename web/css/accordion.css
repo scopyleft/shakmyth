@@ -1,0 +1,31 @@
+#left_nav_accordion .ui-state-default, #left_nav_accordion .ui-state-active, #left_nav_accordion .ui-state-default {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #F90;
+}
+
+#left_nav_accordion .ui-accordion-content-active {
+  color: #F90;
+  border-bottom: 1px solid #F90;
+  background-color: #FFD;
+}
+
+#left_nav_accordion .ui-accordion .ui-accordion-content {
+  padding: 0px;
+  border-top: 1px dotted #F90;
+  overflow: hidden;
+}
+
+#left_nav_accordion .ui-corner-top, #left_nav_accordion .ui-corner-bottom, #left_nav_accordion .ui-corner-all {
+   -moz-border-radius: 0px;
+}
+
+#left_nav_accordion .ui-widget-content {
+  border: none;
+  background: none;
+  background-color: #EFF;
+}
+
+#left_nav_accordion .uo_widget_containers_list_content {
+  padding: 0;
+}

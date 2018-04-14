@@ -1,0 +1,14 @@
+symfony Doctrine Manager Plugin
+===============================
+
+This plugin offers the ability to control Doctrine related functionality from a web based interface.
+
+Features
+--------
+
+ * Manage schema
+ * Execute Doctrine tasks
+ * Integration with Doctrine database migrations
+ * Add/Edit/Delete data
+
+This plugin is currently in early stages of development and considered to be in alpha state. Not all of the above mentioned features have been implemented. We will be slowly adding new features over time.

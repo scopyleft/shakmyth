@@ -1,0 +1,42 @@
+div#header-myth
+{
+  border: 1px solid #EFC70F;
+  border-style: solid;
+  margin: 10px 0px;
+  overflow: hidden;
+}
+
+div#header-myth h3.title
+{
+  border-bottom: 1px solid #EFC70F;
+  background-color: #FFD71F;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #B50;
+}
+
+div#header-myth-col-1
+{
+  float: left;
+  width: 45%;
+  overflow: hidden;
+  padding:0 10px;
+  width:45%;
+}
+
+div#header-myth-col-1 li#category-selected
+{
+  #text-decoration: underline;
+  border-bottom: 1px dotted #EFC70F;
+  border-top: 1px dotted #EFC70F;
+}
+
+div#header-myth-col-2
+{
+  border-left: 1px solid #EFC70F;
+  float: right;
+  margin: 0px;
+  padding: 0px 10px;
+  width: 45%;
+}
+

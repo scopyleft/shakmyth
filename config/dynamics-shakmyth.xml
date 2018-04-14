@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<dynamics>
+	<package name="shakmyth_frontend">
+		<javascript>frontend</javascript>
+		<stylesheet>blueprint/screen</stylesheet>
+		<stylesheet>main</stylesheet>
+		<stylesheet>frontend</stylesheet>
+		<stylesheet>front-dicentries</stylesheet>
+		<stylesheet>front-contributors</stylesheet>
+	</package>
+	<package name="shakmyth_backend">
+		<stylesheet>main</stylesheet>
+		<stylesheet>backend</stylesheet>
+	</package>
+	<package name="back_myth_page">
+		<javascript>back_myth_page</javascript>
+	</package>
+	<package name="front_myth_page">
+		<stylesheet>front_myth_page</stylesheet>
+	</package>
+	<package name="accordion_override">
+		<stylesheet>accordion</stylesheet>
+	</package>
+	<package name="back_sf">
+		<stylesheet>back_sf</stylesheet>
+	</package>
+	<package name="sub_page">
+		<stylesheet>sub_page</stylesheet>
+	</package>
+	<package name="third_column">
+		<stylesheet>third_column</stylesheet>
+	</package>
+</dynamics>

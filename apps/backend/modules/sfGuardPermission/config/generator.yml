@@ -1,0 +1,14 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    config:
+      fields:
+      filter:
+        display: [name, description, users_list, groups_list]
+      edit:
+      new:
+      form:
+        display: [ =name, description, users_list, groups_list ]
+      list:
+        sort: [ name, desc ]
+        display: [ =name, description ]

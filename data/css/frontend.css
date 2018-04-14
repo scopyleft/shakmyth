@@ -1,0 +1,303 @@
+
+/* ------ NOTES ---------------------------------------------------------------
+
+Master Screen Style for shakmyth, http://www.shakmyth.org
+
+--------- UPDATE INFO ---------------------------------------------------------
+
+Last updated: 18 June 2009
+Last update made by: Stephane Langlois (stephane.langlois@particul.es)
+
+--------- CONTENTS ------------------------------------------------------------
+
+1: BODY AND UNIVERSAL RESET
+2: GLOBAL NAVIGATION AND HEADER
+  a) Header
+	b) Top navigation
+	c) Left navigation
+3: PAGE STRUCTURE
+4: THIRD COLUMN
+---------------------------------------------------------------------------- */
+
+/* 1: BODY AND UNIVERSAL RESET
+============================================================================ */
+
+* {
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border:0 none;
+  font-family:inherit;
+  font-size:100%;
+  font-style:inherit;
+  font-weight:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+
+body {
+  line-height:1.5; # verif
+  color:#222222;
+  font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-size:85%;
+}
+
+div, img, li, ul {
+  border-color: #F90;
+  border-style: solid;
+}
+
+img {
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#F90; 
+}
+
+h2 {
+  font-size: 2em;
+  padding: 0 0 20px;
+}
+
+/* 2: GLOBAL NAVIGATION AND HEADER
+============================================================================ */
+
+/* a) Header */
+
+div.news-bloc { 
+  border-top: 1px solid #F90;
+	padding: 10px 0;
+}
+
+div.container {
+  width: 751px;
+  border-width: 1px;
+  margin: 20px auto;
+}
+
+div#header { 
+  width: 751px;
+  float: left;
+}
+
+h1#site-title {
+  float: left;
+}
+
+/* b) Top navigation */
+
+ul#top-nav { 
+  height: 30px;
+  margin-top: 20px;
+  padding:1em;
+  text-align: right;
+}
+
+ul#top-nav li {
+  display: inline;
+  border-right: 1px solid #F90;
+  border-bottom: 1px solid #F90;
+  padding : 0.2em;
+}
+
+span#banner-icons {
+  display: block;
+  float: left; 
+  width: 150px;
+}
+
+img#logo-cnrs {
+  width: 148px;
+  height: 62px;
+}
+
+img#logo-upv {
+  border-top: 1px solid #F90;
+  padding: 5px 1em 0px;
+  width: 124px;
+  height: 68px;
+}
+
+img#banner {
+  display: block;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  width: 600px;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+}
+
+/* ) Left navigation */
+
+div#left-nav li, div#left-nav a, div#header a, div#myth-nav li, div#myth-nav a  {
+  color:#F90;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 96%;
+  font-family: Arial,Helvetica,sans-serif;
+} 
+
+div#left-nav a:hover , div#header a:hover {
+  color: #D70;
+}
+
+div#left-nav {
+  border-top-width: 1px;
+  width:150px; 
+  float:left;
+}
+
+img#logo-ircl {
+  padding: 10px 44px;
+  width:  62px;
+  height: 62px;
+  border-bottom: 1px solid #F90;
+}
+
+#left-nav ul.nav-root {
+  width:150px; 
+  margin: 0px;
+}
+
+#left-nav li.headings {
+  border-top-width: 1px;
+  padding: 5px 15px;
+}
+
+#left-nav ul.nav-root {
+  border-bottom-width: 1px;
+}
+
+#left-nav ul.nav-level {
+  display: none;
+  margin-left: 150px;
+  padding: 10px;
+  width: 120px;
+  background-color: #FEE;
+  cursor: pointer;
+}
+
+div#left-nav a.left-nav-content {
+  display:block;
+  padding: 5px 15px;
+  color: #D70;
+  font-weight:normal;
+  border-bottom: 1px dotted #F90;
+}
+
+div#left-nav a.left-nav-content:hover , div#header a.left-nav-content:hover {
+  color: #F90;
+  background-color: #EEE;
+}
+
+div#search-engine {
+  border-top: 1px dotted #F90;
+  border-bottom: 1px dotted #F90;
+  margin-top:80px;
+  width:150px; 
+  float:left;
+}
+
+div#search-engine {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+a#link-backend {
+  display: block;
+  padding: 10px 0px 0px 14px;
+}
+
+img.icons {
+  padding: 5px 5px;
+  vertical-align: top;
+}
+
+div#icons-bar {
+  text-align: center;
+}
+
+img.icon-backend {
+  padding-right:5px;
+  vertical-align: top;
+}
+
+input#search_keywords {
+  margin: 10px 0px 10px 15px;
+  font-size: 100%;
+  color:#028;
+  padding:2px;
+  width:97px;
+}
+
+input#ok {
+  vertical-align: middle;
+}
+
+
+/* 3: PAGE STRUCTURE
+============================================================================ */
+
+div#content {
+  height:auto !important;
+  min-height: 540px;
+  border-width: 1px 0 0 1px;
+  width: 580px;
+  float: left;
+  padding:10px;
+}
+
+div#content h4 {
+  border-bottom: 1px solid #EFC70F;
+  color: #B50;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+div#content ul {
+  list-style-type: none; 
+  padding: 10px;
+  color: #B50;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+div#content a {
+  text-decoration: none;
+  color: #D70; 
+}
+
+div#content a:hover {
+  text-decoration: underline;
+  color: #B50; 
+}
+
+a.keywords {
+  background-color: #DEE;
+  color: #444; 
+}
+
+a:hover.keywords {
+  background-color: #EFF;
+  color: #fff;  
+}
+
+p.search-result-infos {
+  color: #B50; 
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+p.search-result-infos #query, p.search-result-infos .count-results {
+  font-weight: bold;
+}
+
+div#content a#back {
+  display: block;
+  padding: 10px 0;
+}  
+

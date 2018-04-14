@@ -1,0 +1,87 @@
+---
+MythPage: 
+  achilles_some :
+    Myth: achilles 
+    is_active: true
+    myth_category: some secondary sources
+    content: | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+  apollo_analsy:
+    Myth: apollo 
+    myth_category: analysis
+    content: | 
+      <p>Shakespeare's treatment of the myth is representative of the main symbolic interpretations of Apollo (especially in contemporary emblem books and mythographers): Apollo as the Sun, as associated with healing yet sometimes bringing about disease, as the god of poetry and music, as the god of learning and prophecy, as the embodiment of divine justice, truth and reason.&nbsp; But the treatment of the myth in Shakespeare also qualifies as distinct from the majority of the occurrences in contemporary drama and poetry, with the notable exception of masques.</p>
+      <p>Indeed, the perusing of contemporary literature reveals a massive presence of the myth (over 3000 occurrences in all for "Apollo" alone). But they are mainly references in passing, or poetical stereotypes, especially in poetry and madrigals: Apollo's peerless music, the comparison of the lover's mistress' hair, or the mistress' lover 's hair, to Apollo's golden hair. Also common are the dead metaphors or stereotyped images referring to Apollo's attributes, such as the laurel-tree, the lyra or lute, and (especially) prophetic powers and oracle.</p>
+      <p>Shakespeare's drama does make use of such allusions and references, but they are not so isolated, scattered, and their function is often not mainly descriptive, even if the mentions of Apollo, Phoebus &ndash; or, more often, the sun &ndash; follow one of the patterns listed below, which correspond to the symbolic attributes of the god (<em>see</em> <em>Secondary Sources</em>).</p>
+      
+  apollo_select:
+    Myth: apollo 
+    myth_category: selected bibliography
+    content: |
+      <p>Anselment, Raymond A., <em>The Realms of Apollo: Literature and Healing in Seventeenth-Century England</em>. Newark, London: Un. of Delaware Press, 1995.</p>
+      <p>Bardelmann, Claire., "Thou beacon to this under globe" : <em>King Lear</em> et le mythe d'Apollon". <em>Lectures du Roi Lear de Wiliam Shakespeare</em>, ed. Delphine Lemonnier-Texier, Guillaume Winter, Presses Universitaires de Rennes, 2008, 145-167.</p>
+
+  apollo_brief:
+    Myth: apollo 
+    myth_category: brief presentation
+    content: |
+      <p><strong>Apollo</strong> is one of the twelve Olympian gods, born on Mount Cynthius, on the island of Delos, the son of Jupiter and Leto, and the twin brother of the goddess Diana. At birth, he was given a bow and arrows by Vulcan, while Jupiter presented him with a lyra strung with seven strings and a chariot drawn by swans. On Mount Parnassus, Apollo slew the serpent Python,&nbsp; after which the Pythian Games were named (<em>See "Python"</em>). Apollo then sought out old Pan, the satyr, and persuaded him to teach him the art of prophecy. He established the oracle at Delphi on the site of his victory over Python, and kept in his service the priestress called the Pythy.</p>
+
+  apollo_classi:
+    Myth: apollo 
+    myth_category: classical sources
+    content: |
+      <p align="center"><strong>&nbsp;General or complete presentation of the god </strong></p>
+      <p>&nbsp;</p>
+
+  apollo_contem:
+    Myth: apollo 
+    myth_category: some contemporary references
+    content: |
+      <p align="center"><strong>Significant earlier and contemporary allusions</strong><strong></strong></p>
+
+  apollo_occur:
+    Myth: apollo
+    myth_category: occurrences in Shakespeare
+    content: |
+      <p><strong><em>The Taming of the Shrew</em></strong><em> </em><strong>&nbsp;&nbsp;</strong></p>
+      <p><em>See also "Daphne"</em></p>
+
+  scylla_some :
+    Myth: scylla 
+    myth_category: some secondary sources
+    content: |
+      <p align="center">
+      <strong>General or complete presentation of the god</strong></p>
+      <p>&nbsp;</p>
+
+  palamedes_classi:
+    Myth: palamedes 
+    myth_category: classical sources
+    content: |
+      <p align="center"><strong>&nbsp;General or complete presentation of the god </strong></p>
+      <p>&nbsp;</p>
+
+  naiad_contem:
+    Myth: naiad 
+    myth_category: some contemporary references
+    content: |
+      <p align="center"><strong>Significant earlier and contemporary allusions</strong><strong></strong></p>
+
+  naiad_occur:
+    Myth: naiad
+    myth_category: occurrences in Shakespeare
+    content: |
+      <p><strong><em>The Taming of the Shrew</em></strong><em> </em><strong>&nbsp;&nbsp;</strong></p>
+      <p><em>See also "Daphne"</em></p>
+
+  myrmidons_some :
+    Myth: myrmidons 
+    is_active: true
+    myth_category: some secondary sources
+    content: |
+      <p align="center">
+      <strong>General or complete presentation of the god</strong></p>
+      <p>&nbsp;</p>
+
+      

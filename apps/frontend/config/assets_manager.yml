@@ -1,0 +1,16 @@
+packages:
+  
+  blueprint:
+    css: blueprint/screen
+  
+  third_column:
+    css: third_column
+  
+  search:
+    import: jquery
+    js: [highlight, /js/search-result.js]
+  
+  layout:
+    import: [jquery, jquery-ui, blueprint, page, search]
+    js: frontend.js
+    css: [main, frontend, front-dicentries, front-contributors, front_myth_page]

@@ -1,0 +1,44 @@
+admin_menu:
+  frontend:
+    label: Frontend
+    url:   "/"
+  home:
+    label: Home
+    route: @homepage
+  menu:
+    label: Menu
+    route: @menu
+    credentials: [admin]
+  myths:
+    label: Myths
+    route: @myth
+    credentials: [admin]
+  myth_pages:
+    label: Myths pages
+    route: @myth_page
+  simple_pages:
+    label: Pages
+    route: @page
+    credentials: [admin]
+  news:
+    label: News
+    route: @news
+    credentials: [admin]
+  media:
+    label: Media
+    route: @sf_media_browser
+    credentials: [admin]
+  users:
+    label: Users
+    route: @sf_guard_user
+  groups:
+    label: Groups
+    route: @sf_guard_group
+    credentials: [super_admin]
+  permissions:
+    label: Permissions
+    route: @sf_guard_permission
+    credentials: [super_admin]
+  connected:
+    label: '[Logout]'
+    route: @sf_guard_signout

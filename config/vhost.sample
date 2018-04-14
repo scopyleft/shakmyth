@@ -1,0 +1,21 @@
+    # Be sure to only have this line once in your configuration
+    NameVirtualHost 127.0.0.1:8888
+
+    # This is the configuration for shakmyth
+    Listen 127.0.0.1:8888
+
+    <VirtualHost 127.0.0.1:8888>
+      ServerName shakmyth.localhost
+      DocumentRoot "/Library/WebServer/Documents/shakmyth/web"
+      DirectoryIndex index.php
+      <Directory "/Library/WebServer/Documents/shakmyth/web">
+        AllowOverride All
+        Allow from All
+      </Directory>
+
+      Alias /sf "/Library/WebServer/Documents/shakmyth/lib/symfony/data/web/sf"
+      <Directory "/Library/WebServer/Documents/shakmyth/lib/symfony/data/web/sf">
+        AllowOverride All
+        Allow from All
+      </Directory>
+    </VirtualHost>

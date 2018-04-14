@@ -1,0 +1,27 @@
+.ui-state-default, .ui-state-active, .ui-state-default {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #F90;
+}
+
+.ui-accordion-content-active {
+  color: #F90;
+  border-bottom: 1px solid #F90;
+  background-color: #FFD;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 0px;
+  border-top: 1px dotted #F90;
+  overflow: hidden;
+}
+
+.ui-corner-top, .ui-corner-bottom, .ui-corner-all {
+   -moz-border-radius: 0px;
+}
+
+.ui-widget-content {
+  border: none;
+  background: none;
+  background-color: #EFF;
+}

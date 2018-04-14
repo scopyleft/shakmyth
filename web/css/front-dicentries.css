@@ -1,0 +1,23 @@
+ul#dicentries { 
+  background-color: #EFF;
+  color:#F90;
+  padding-left:6px;
+  font-family: monaco; 
+  border: 1px solid #ddd;
+}
+
+li.letters {
+  color:#FC7;
+  display: inline;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+li.letters a#letter-selected {
+  font-weight: bold;
+}
+
+li.letters a {
+  border-bottom: 1px dotted #EFC70F;
+  font-weight: lighter;
+}

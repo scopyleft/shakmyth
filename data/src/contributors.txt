@@ -1,0 +1,12 @@
+Sophie;ALATORRE;chiarisophie@hotmail.com
+Paula;BARROS;paula.barros@univ-montp3.fr
+Frederic;DELORD;frederic-delord@wanadoo.fr
+Patricia;DORVAL;patricia.dorval@univ-montp3.fr
+Gaelle;GINESTET;gaelle.ginestet@univ-montp3.fr
+Agnes;LAFONT;agnes.lafont@univ-montp3.fr
+Jean-Marie;MAGUIN;jmmaguin@wanadoo.fr
+Cecile;MAURE;cecile.maure@univ-reims.fr
+Jean-Christophe;MAYER;jean-christophe.mayer@univ-montp3.fr
+Yves;PEYRE;yves.peyre@univ-montp3.fr
+Nathalie;RIVERE DE CARLES;nrivere@univ-tlse2.fr
+Janice;VALLS-RUSSELL;cahiers@univ-montp3.fr

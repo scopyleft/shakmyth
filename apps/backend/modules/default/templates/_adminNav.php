@@ -1,0 +1,1 @@
+<?php echo $menu->render('admin_menu',  ESC_RAW) ?>

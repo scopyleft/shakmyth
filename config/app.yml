@@ -1,0 +1,31 @@
+all:
+  identities:
+    dir:      /uploads/identities
+    default:  avatar.gif
+  
+  myth:
+    categories:
+      - brief presentation
+      - classical sources
+      - some secondary sources
+      - occurrences in Shakespeare
+      - some contemporary references
+      - analysis
+      - selected bibliography
+      - iconography
+      - music
+      
+  left_nav_items_file:
+     %SF_CONFIG_DIR%/left-nav.yml
+
+  pages:
+    special:
+      contributor_list: Contributors
+      myth_list: Dictionary
+      home_page: Home Page
+      news_list: Events
+      search_help: Search help
+      
+test:
+  left_nav_items_file:
+     %SF_DATA_DIR%/test-left-nav.yml

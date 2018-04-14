@@ -1,0 +1,4 @@
+<?php
+abstract class BasesfDoctrineSchemaColumnCollectionForm extends sfDoctrineSchemaElementCollectionForm
+{
+}

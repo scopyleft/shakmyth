@@ -1,0 +1,8 @@
+<?php
+class sfDoctrineSchemaOption extends sfDoctrineSchemaElement
+{
+  public function toArray()
+  {
+    return end($this->_data);
+  }
+}

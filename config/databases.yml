@@ -1,0 +1,24 @@
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=shakmyth_test'
+      username: shakmyth
+      password: xxxxxxxx
+
+dev:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=shakmyth'
+      username: root
+      password:
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=shakmyth'
+      username: shakmyth
+      password: xxxxxxxx
+
